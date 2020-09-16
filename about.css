@@ -9,6 +9,12 @@
 h1,h2 {
   text-align: center;
 }
+.top,h3 {
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 700;
+    font-weight: bold;
+}
 #first {
 width: 1200px;
 height: 500px;
