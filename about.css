@@ -14,6 +14,11 @@ h1,h2 {
     font-style: oblique;
     font-weight: 700;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    color: blue;
+    max-width: 30;
+    height:10 ;
 }
 #first {
 width: 1200px;
