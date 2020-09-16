@@ -72,10 +72,13 @@ footer{
     align-items: center;
 }
 
-div>p{
+.links>p{
     margin: 5px auto;
 }
 
+.address>p{
+    margin: 5px auto;
+} 
 .address{
     margin-right: 50px;
     margin-top: 10px;
@@ -141,3 +144,4 @@ form > input{
     transform: rotate(45deg);
     cursor: pointer;
 }
+
