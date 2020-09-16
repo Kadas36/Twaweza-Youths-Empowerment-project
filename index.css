@@ -1,22 +1,17 @@
 *{
     box-sizing: border-box;
 }
-
-nav{
-    background-color: #007ee5;
+/* Nav bar styling */
+header{
     display: flex;
-    justify-content: flex-end;
-    color: white;
-    margin: auto 0px;
-}
-
-ul{
-    list-style-type: none;
-    display: inherit;
     justify-content: space-between;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    flex-wrap: wrap;
+    background-color: #EE6C4D;
+    color: #ffffff;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 a{
@@ -24,16 +19,34 @@ a{
     text-decoration: none;
 }
 
-li>a{
+
+nav > ul {
     text-decoration: none;
-    color: white;
-    padding-right: 7em;
-    font-size: 20px;
 }
 
-img{
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav > ul > li > a:hover {
+    color: #C71585;
+    text-decoration: none;
+    display: block;
+}   
+
+.emblem{
     width: 100px;
 }
+
 
 #main{
     height: 35em;
@@ -41,6 +54,18 @@ img{
     background-repeat: no-repeat;
 }
 
+main>p{
+    padding-top: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 48px;
+}
+
+/* Start of footer styling */
 footer{
     display: flex;
     flex-direction: column;
@@ -99,49 +124,89 @@ footer{
     margin: 10px 10px 10px auto;
 } 
  
-#button{
+.button{
     margin-bottom: 10px;
     padding: 20px;
     background-color: blue;
     color: white;
     width: 14em;
     border-radius: 5px;
-}
+    cursor: pointer;
+}    
 
-.bg-model{
+
+/* modal signup form */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}     
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    
+}
 
-.modal-content{
-    width: 500px;
-    height: 300px;
-    background-color: white;
-    border-radius: 4px;
-    text-align: center;
+.modal-content {
+    width: 50%;
+    border-radius: 5px;  
+    background-color: #fefefe;
+    background-image: url("Images/youyhdance.jpg");
+    margin: auto;
     padding: 20px;
-    position: relative;
+    border: 1px solid #888;
+}
+  
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
-form > input{
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form>input{
+    margin-top: 10px;
     width: 300px;
-    display: block;
-    margin: 15px auto;
+    height: 30px;
 }
 
-.close{
-    position: absolute;
-    top: 0;
-    right: 14px;
-    font-size: 42px;
-    transform: rotate(45deg);
+form p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p:nth-child(7){
+    font-size: 12px;
+}
+
+form>p{
+    color:#ffffff;
+}
+
+.modalButton{
+    background-color: blue;
+    color: #ffffff;
+}
+
+.close:hover,
+.close:focus{
+    color: #000;
+    text-decoration: none;
     cursor: pointer;
 }
+/* end of modal style */
+
+
+
+
+  
 
