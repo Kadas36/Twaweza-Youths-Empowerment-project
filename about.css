@@ -9,6 +9,65 @@
 h1,h2 {
   text-align: center;
 }
+.top,h3 {
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 700;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    color: blue;
+    max-width: 30;
+    height:10 ;
+}
+.img {
+  background-size: 100px 50px;
+}
+/* Nav bar styling */
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #EE6C4D;
+  color: #ffffff;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+nav > ul {
+  text-decoration: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav > ul > li > a:hover {
+  color: #C71585;
+  text-decoration: none;
+  display: block;
+}   
+
+.emblem{
+  width: 100px;
+}
 #first {
 width: 1200px;
 height: 500px;
@@ -19,10 +78,11 @@ display: block;
 body {
   background-color: grey;
 }
-.header{
-  background-color: blue;
+*{
+  box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .brand-logo{
   display: flex;
   align-items: center;
@@ -74,6 +134,8 @@ body {
   box-sizing: border-box;
 }
 
+=======
+>>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
 footer{
   display: flex;
   flex-direction: column;
@@ -82,7 +144,14 @@ footer{
 #emblem{
   width: 100px;
 }
+<<<<<<< HEAD
 
+=======
+#center {
+  width: 1200px;
+  height: 400px;
+}
+>>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
 .footerA{
   display: inherit;
   justify-content: space-between;
@@ -148,5 +217,9 @@ a{
   color: white;
   width: 14em;
   border-radius: 5px;
+<<<<<<< HEAD
 }
 /* footer end */
+=======
+}
+>>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
