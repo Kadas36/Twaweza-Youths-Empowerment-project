@@ -82,7 +82,6 @@ body {
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 .brand-logo{
   display: flex;
   align-items: center;
@@ -134,8 +133,6 @@ body {
   box-sizing: border-box;
 }
 
-=======
->>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
 footer{
   display: flex;
   flex-direction: column;
@@ -144,14 +141,6 @@ footer{
 #emblem{
   width: 100px;
 }
-<<<<<<< HEAD
-
-=======
-#center {
-  width: 1200px;
-  height: 400px;
-}
->>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
 .footerA{
   display: inherit;
   justify-content: space-between;
@@ -217,9 +206,5 @@ a{
   color: white;
   width: 14em;
   border-radius: 5px;
-<<<<<<< HEAD
 }
 /* footer end */
-=======
-}
->>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d

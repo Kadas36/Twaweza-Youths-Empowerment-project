@@ -52,23 +52,24 @@ nav > ul > li > a:hover {
     height: 35em;
     background-image: url("Images/African-American-Youth-happy.jpg");
     background-repeat: no-repeat;
+    margin-top: 100px;
 }
-<<<<<<< HEAD
-
-main>p{
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-left: 50px;
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+/* main>p{
     text-align: center;
     font-size: 40px;
     color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 48px;
-}
+} */
 
 /* Start of footer styling */
-=======
->>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
 footer{
     display: flex;
     flex-direction: column;
