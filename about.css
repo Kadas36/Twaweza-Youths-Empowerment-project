@@ -89,6 +89,60 @@ body {
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+.brand-logo{
+  display: flex;
+  align-items: center;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+.brand-logo-name{
+  margin-left: 1rem;
+  color: white;
+  font-size: medium;
+}
+
+.logo{
+  margin-left: 1rem;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.main-nav ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a{
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.main-nav a:hover{
+  color: #adadad;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  height: 40px;
+}
+
+
+/* added footer */
+*{
+  box-sizing: border-box;
+}
+
+=======
+>>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
 footer{
   display: flex;
   flex-direction: column;
@@ -97,10 +151,14 @@ footer{
 #emblem{
   width: 100px;
 }
+<<<<<<< HEAD
+
+=======
 #center {
   width: 1200px;
   height: 400px;
 }
+>>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d
 .footerA{
   display: inherit;
   justify-content: space-between;
@@ -166,4 +224,9 @@ a{
   color: white;
   width: 14em;
   border-radius: 5px;
+<<<<<<< HEAD
 }
+/* footer end */
+=======
+}
+>>>>>>> db23ef51204f855c8f3c07bbddd552bb009d198d

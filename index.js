@@ -1,7 +1,7 @@
-document.getElementById('button').addEventListener('click',function(){
-    document.querySelector('bg-modal').getElementsByClassName.display = 'flex'
-});
+document.getElementById("myButton").onclick = function() {
+  document.getElementById("myModal").style.display = "block";
+};
 
-document.querySelector('.close').addEventListener('click',function(){
-    document.querySelector('bg-modal').getElementsByClassName.display = 'none'
-});
+document.getElementsByClassName("close")[0].onclick = function() {
+document.getElementById("myModal").style.display = "none";
+}   
