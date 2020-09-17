@@ -9,6 +9,13 @@
 h1,h2 {
   text-align: center;
 }
+.intro {
+  margin-top: 150px;
+}
+.overall {
+  display: flex;
+  justify-content: space-around;
+}
 .top,h3 {
     font-size: medium;
     font-style: oblique;
@@ -35,17 +42,13 @@ header{
   right: 0;
   left: 0;
 }
-
 a{
   color: white;
   text-decoration: none;
 }
-
-
 nav > ul {
   text-decoration: none;
 }
-
 nav > ul > li {
   display: inline-block;
 }
