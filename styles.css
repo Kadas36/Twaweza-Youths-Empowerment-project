@@ -1,10 +1,14 @@
 body {
     overflow-x: hidden;
   }
+  *{
+    box-sizing: border-box;
+}
+/* Nav bar styling */
   
   nav {
-    /* background-color: #1c2331; */
-    z-index: 1;
+    background-color: #EE6C4D;
+  z-index: 1;
   }
   
   nav > ul {
@@ -31,13 +35,43 @@ body {
     display: block;
   }
   
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav > ul {
+    text-decoration: none;
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li > a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* nav  a:hover {
+    color: #C71585;
+    text-decoration: none;
+    display: block;
+}   */
+.emblem{
+    width: 100px;
+    text-align: right;
+}
+  
   .navbar{
-      background-color: #ee6c4d;
+      background-color: #ee7152;
       margin-top:0px;
       }
   .talent > p {
       color:c71585;
       font-size: 20px;
+    
   }
 
 
@@ -124,3 +158,29 @@ a{
 button{
   background-color: red;
 }
+
+.zebra{
+
+  text-align: right;
+justify-content: space-between;
+  display: flex;
+    
+}
+#animal{
+  text-align: left;
+}
+.peter{
+  padding: 30px;
+  display: inline;
+  justify-content: space-around;
+  text-transform: uppercase;
+
+}
+.peter a{
+  padding: 20px;
+
+}
+.peter a:hover{
+  color: purple;
+}
+
